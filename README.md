@@ -1,4 +1,6 @@
 # MOSAIC-teleop
+[![Python 3.10+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://opensource.org/license/apache-2-0)
 
 **MOSAIC-teleop** is a versatile teleoperation framework adapted for the [**MOSAIC**](https://baai-humanoid.github.io/MOSAIC/) ecosystem. It enables high-fidelity control of humanoid robots (Unitree G1 now) by supporting dual input modalities: **Inertial Motion Capture** (Noitom) and **Virtual Reality** (PICO 4).
 
