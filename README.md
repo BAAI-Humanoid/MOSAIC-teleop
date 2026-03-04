@@ -1,6 +1,6 @@
 # MOSAIC-teleop
 
-**MOSAIC-teleop** is a versatile teleoperation framework adapted for the **MOSAIC** ecosystem. It enables high-fidelity control of humanoid robots (Unitree G1 now) by supporting dual input modalities: **Inertial Motion Capture** (Noitom) and **Virtual Reality** (PICO 4).
+**MOSAIC-teleop** is a versatile teleoperation framework adapted for the [**MOSAIC**](https://baai-humanoid.github.io/MOSAIC/) ecosystem. It enables high-fidelity control of humanoid robots (Unitree G1 now) by supporting dual input modalities: **Inertial Motion Capture** (Noitom) and **Virtual Reality** (PICO 4).
 
 This framework bridges human motion to robot actions with low latency, suitable for data collection, imitation learning, and real-time remote control tasks.
 
@@ -25,7 +25,7 @@ conda create -n teleop python=3.10 -y
 conda activate teleop
 ```
 
-Please install the dependencies by referring to https://github.com/YanjieZe/GMR. Note: Ensure all dependencies are installed within the teleop conda environment."
+Please install the dependencies by referring to [GMR](https://github.com/YanjieZe/GMR). Note: Ensure all dependencies are installed within the teleop conda environment."
 
 ```bash
 # Install project dependencies
@@ -100,18 +100,10 @@ Modify the `assets/` folder to swap URDF files if you are adapting this for a di
 - **Mocap Data Not Moving**:
   Check if Axis Studio is actively streaming and that the IP address in `online/mocap_robotapi.py` matches your mocap system's broadcast IP.
 
-## 📄 License
 
-This project is released under the No License.
 
 ## 🙏 Acknowledgements
 
 - This project, **MOSAIC-teleop**, is adapted from and built upon the **[GMR (General Motion Retargeting)](https://github.com/YanjieZe/GMR)** framework. We sincerely thank the authors for open-sourcing their powerful retargeting algorithms and real-time teleoperation tools.
 - Integrates with **Unitree Robotics** SDK.
 - Supports **Noitom** and **PICO** hardware ecosystems.
-
-
-
-
-
-
